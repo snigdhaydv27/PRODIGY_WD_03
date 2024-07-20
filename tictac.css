@@ -4,6 +4,9 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background-image: url("tictac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
@@ -15,17 +18,21 @@ body {
     grid-template-columns: repeat(3, 100px);
     grid-gap: 5px;
     margin: 20px auto;
+    background: transparent;
+    backdrop-filter: blur(35px);
+
 }
 
 .btn {
     width: 100px;
     height: 100px;
-    background-color: #f0f0f0;
+    background-color: #7D8491;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
     cursor: pointer;
+    border-radius: 12px;
 }
 
 .btn.winner {
