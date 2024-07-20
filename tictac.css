@@ -1,4 +1,5 @@
 body {
+    color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +20,7 @@ body {
     grid-gap: 5px;
     margin: 20px auto;
     background: transparent;
-    backdrop-filter: blur(35px);
+    backdrop-filter: blur(5px);
 
 }
 
@@ -33,13 +34,34 @@ body {
     font-size: 2em;
     cursor: pointer;
     border-radius: 12px;
+    
+}
+.btn:hover{
+    width: 102px;
+    height: 102px;
 }
 
 .btn.winner {
-    background-color: #a8ffa8;
+    background-color: rgb(46, 225, 46);
+}
+
+#reset{
+    width: 65px;
+    height: 35px;
+    margin-top: 20px;
+    font-size: medium;
+    border-radius: 7px;
+    background-color: #3b465c;
+    color: white;
+}
+
+#reset:hover{
+    width: 57px;
+    height: 27px;
 }
 
 #message {
     font-size: 1.2em;
     margin-bottom: 10px;
+    color: darksalmon;
 }
